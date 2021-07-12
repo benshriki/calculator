@@ -34,7 +34,6 @@ export default class App extends Component {
     }
 
     updateCalc = (index) => {
-        let c = this.state.calcsHistory[index];
         this.setState({
             calcToUpdate: this.state.calcsHistory[index],
             lastRes: undefined
